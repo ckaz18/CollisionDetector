@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//package javaapplication2;
+package javaapplication2;
 
 import java.util.ArrayList;
 
@@ -15,14 +15,14 @@ public class WarningLevelCalculator {
     Aircraft[] nearList;
     Aircraft thisPlane;
     //CollisionCalculator collCalc;
-    TextCommunication textComm;
+    TextComm textComm;
     ArrayList<Collision> collisions;
     
     public WarningLevelCalculator(Aircraft thisPlane, Aircraft[] nearList){
         this.nearList = nearList;
         this.thisPlane = thisPlane;
         //collCalc = new CollisionCalculator(mine, nearList);
-        textComm = new TextCommunication();
+        textComm = new TextComm();
         collisions = new ArrayList();
     }
     public WarningLevelCalculator(){

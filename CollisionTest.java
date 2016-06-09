@@ -27,11 +27,11 @@ public class CollisionTest {
             new Aircraft("othertwo", ALL_ZEROS, ALL_ZEROS, 0);
 
     /** xyz velocities */
-    private static final double[] HEADING1 = {0.0, 1050.0, 0.0};
+    private static final double[] HEADING1 = {0.0, 550.0, 0.0};
     /** latitude, longitude, and altitude */
     private static final double[] LOCATION1 = {0.0, 0.0, 1000.0};
     /** xyz velocities */
-    private static final double[] HEADING2 = {-1050.0, 0.0, 0.0};
+    private static final double[] HEADING2 = {-550.0, 0.0, 0.0};
     /** latitude, longitude, and altitude */
     private static final double[] LOCATION2 = {550.0, 550.0, 1000.0};
 
